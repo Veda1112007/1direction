@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- link -->
+    <!-- title -->
+
+    <title>One Direction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.dom.min.js"></script>
+    
+    <script src="scriptjs.js"></script>
+</head>
+
+<body>
+    <!-- actual code -->
+    
+    <header>
+        One Direction
+    </header>
+
+    <div id="drawBox" hidden>
+        <script src="sketch.js"></script>
+    </div>
+
+    <!-- <img src="https://www.zmonline.com/media/19083359/one-direction-1200x793.jpg?mode=crop&width=620&height=349&quality=60&scale=both" /> -->
+    <!-- <a href="https://onedirectionmusic.com/">Click here</a> -->
+
+    <div class="left">
+        <p><b>
+            <!-- <ol></ol>   ordered list 1,2,3 -->
+            <!-- <ul></ul>    unordered list bulletins-->
+            <!-- <li></li>     list item -->
+            <ul>
+                <li onclick="one('louis')">Louis Tomlinson</li>
+                <li onclick="one('harry')">Harry Styles</li>
+                <li onclick="one('zayn')">Niall Horan</li>
+                <li onclick="one('niall')">Liam Payne</li>
+                <li onclick="one('liam')">Zayn Malik</li>
+                <li><a href="https://onedirectionmusic.com/">Click here</a></li>
+                <li onclick="openDraw()">Draw here</li>
+            </ul>
+            </b>
+        </p>
+    </div>
+
+    <div class ="quotes" >
+        <img id="louis"  src="Louis quotes.jpg" hidden />
+        <img id="harry"  src="Harry quotes.jpg" hidden />
+        <img id="zayn" src="Niall quotes.jpg" hidden />
+        <img id="niall"  src="Liam quotes.jpg" hidden />
+        <img id="liam" src="Zayn quote.jpg" hidden />
+    </div>
+
+    <footer>
+        Thank you!
+    </footer>
+
+</body>
+
+</html>
